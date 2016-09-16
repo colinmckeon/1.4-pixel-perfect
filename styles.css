@@ -29,6 +29,13 @@ header:before{
   background-color: rgba(0, 96, 172, 0.6);
 }
 
+.logo{
+  height: 45px;
+  width: 45px;
+  vertical-align: middle;
+
+}
+
 header h1, h3{
   position: relative;
   text-align: center;
@@ -40,24 +47,63 @@ nav{
   padding-left:
 }
 
+/*.main-nav{
+  position: relative;
+  padding-bottom: 10px;
+}*/
+
 nav ul{
   display: inline-block;
   list-style: none;
-}
+  /*float: right;*/
+  position: absolute;
+  right: 161px;
+  top: -1px;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  word-spacing: 10px;
+  }
+
+
+
+.fa {
+    transform: scaleX(-1);
+    font-size: 16px;
+  }
 
 nav li{
   display: inline-block;
 }
 
 .brand{
-  padding-left: 200px;
+  padding-left: 131px;
+  display: flex;
+  align-items: center;
 }
+
 .company-name{
   vertical-align: middle;
   text-transform: uppercase;
+  padding-left: 9px;
+  font-family: 'Open Sans';
 }
 
 h1{
 font-family: 'Open Sans';
 text-transform: uppercase;
+color: white;
+font-size: 98px;
+top: 63px;
+}
+
+h3{
+  font-size: 15.5px;
+  font-family: 'Open Sans';
+  top: -18px;
+}
+
+a{
+  text-decoration: none;
 }
