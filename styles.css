@@ -36,7 +36,7 @@ header:before{
 
 }
 
-header h1, h3{
+header .main-title, .under-title{
   position: relative;
   text-align: center;
 }
@@ -47,15 +47,9 @@ nav{
   padding-left:
 }
 
-/*.main-nav{
-  position: relative;
-  padding-bottom: 10px;
-}*/
-
-nav ul{
+nav .main-nav{
   display: inline-block;
   list-style: none;
-  /*float: right;*/
   position: absolute;
   right: 161px;
   top: -1px;
@@ -90,7 +84,7 @@ nav li{
   font-family: 'Open Sans';
 }
 
-h1{
+.main-title{
 font-family: 'Open Sans';
 text-transform: uppercase;
 color: white;
@@ -98,7 +92,7 @@ font-size: 98px;
 top: 63px;
 }
 
-h3{
+.under-title{
   font-size: 15.5px;
   font-family: 'Open Sans';
   top: -18px;
@@ -106,4 +100,87 @@ h3{
 
 a{
   text-decoration: none;
+  color: black;
+}
+
+
+ul{
+  list-style: none;
+}
+
+.left-header{
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  font-size: 65px;
+}
+
+.anne-list{
+  position: relative;
+}
+
+.headshot{
+  position: absolute;
+}
+
+.anne{
+  color:#106DB3;
+  display: inline-block;
+}
+
+.date-link{
+  text-decoration: underline;
+  color: #BAC6CF;
+  display: inline-block;
+}
+
+.bulk{
+  display: flex;
+  width: 716px;
+}
+
+.left-side{
+  background-color: red;
+  width: 615px;
+  margin-left: 164px;
+}
+
+.right-side{
+  background-color: green;
+}
+
+.link-list{
+  display: flex;
+}
+
+.pop-posts h2{
+  font-family: 'Oswald';
+  color: #083452;
+  text-align: center;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.four-images{
+  display: flex;
+  padding: 0;
+}
+
+.tiy-div{
+  display: flex;
+  align-items: center;
+}
+
+.footer{
+  background-color: #083452;
+}
+
+.footer-links{
+  display: flex;
+}
+
+.footer-links a{
+  color: #A3B3BF;
+  font-family: 'Open Sans';
+  font-size: 12px;
+
 }
