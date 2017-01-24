@@ -33,7 +33,6 @@ header:before{
   height: 45px;
   width: 45px;
   vertical-align: middle;
-
 }
 
 header .main-title, .under-title{
@@ -132,6 +131,9 @@ ul{
   color: #BAC6CF;
   display: inline-block;
 }
+.link-list{
+  display: flex;
+}
 
 
 
@@ -171,12 +173,7 @@ ul{
 
 
 
-
-
-.link-list{
-  display: flex;
-}
-
+/* ABOVE FOOTER */
 .pop-posts h2{
   font-family: 'Oswald';
   color: #083452;
@@ -190,20 +187,35 @@ ul{
   padding: 0;
 }
 
+
+/* FOOTER */
 .footer{
   background-color: #083452;
+  height: 80px;
 }
-
 .tiy-div{
-  align-items: center;
   display: inline-block;
+  width: 650px;
+  text-align: center;
+  margin-top: 22px;
 }
-
+#tiy-logo{
+  display: inline;
+}
+#tiy-logo-actual{
+  vertical-align: middle;
+}
+#copyright-footer{
+  display: inline;
+  color: #A3B3BF;
+  font-family: 'Open Sans';
+}
+.footer-links-holder{
+  display: inline-block;
+  width: 645px;
+  text-align: center;
+}
 .footer-links{
-  display: inline-block;
-}
-
-.footer-links a{
   color: #A3B3BF;
   font-family: 'Open Sans';
   font-size: 12px;
