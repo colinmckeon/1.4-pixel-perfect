@@ -121,11 +121,27 @@ ul{
   letter-spacing: -2px;
 }
 .headshot{
+  position: relative;
   display: inline-block;
+  vertical-align: middle;
+}
+.headshot:after{
+  position: absolute;
+  content:"";
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  opacity:.4;
+  background-color: #106DB3;
+  border-radius: 50%;
+}
+.headshot-info{
+  display: inline-block;
+  vertical-align: middle;
 }
 .anne{
-  /*font-family: 'Oswald';*/
-  /*font-family: 'Open Sans';*/
+  font-family: 'Open Sans';
   color:#106DB3;
   font-weight: bold;
   display: inline-block;
@@ -174,24 +190,71 @@ ul{
 }
 .right-anne{
   text-align: center;
+  color:#106DB3;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .social-media{
   text-align: center;
+  font-family: 'Open Sans';
+  word-spacing: 16px;
 }
 .headshot-b{
+  position: relative;
   text-align: center;
+  margin-bottom: 10px;
+}
+.headshot-b:after{
+  position: absolute;
+  content:"";
+  top:0;
+  left:0;
+  width: 88px;
+  height: 88px;
+  opacity:.4;
+  background-color: #106DB3;
+  border-radius: 50%;
+  margin-left: 137px;
 }
 .media-link{
   color: #BAC6CF;
 }
 .side-surfer{
+  position: relative;
   text-align: center;
+  margin-bottom: -53px;
+  padding-top: 55px;
+}
+.side-surfer:after{
+  position: absolute;
+  content:"";
+  top: 55px;
+  left: 0;
+  width: 100%;
+  height: 388px;
+  opacity:.4;
+  background-color: #106DB3;
 }
 #surfer-image{
   width: 100%;
 }
 .about-side-surfer{
   text-align: right;
+}
+#about-side-surfer-link{
+  font-family: 'Open Sans';
+  color: #BAC6CF;
+  text-decoration: underline;
+}
+.sidebar-heading-actual{
+  font-family: 'Open Sans';
+  color: #106DB3;
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  margin-bottom: 0px;
 }
 
 
