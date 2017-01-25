@@ -115,6 +115,7 @@ ul{
 }
 .left-header{
   font-family: 'Open Sans';
+  color: #083452;
   text-transform: uppercase;
   font-size: 60px;
   letter-spacing: -2px;
@@ -123,7 +124,10 @@ ul{
   display: inline-block;
 }
 .anne{
+  /*font-family: 'Oswald';*/
+  /*font-family: 'Open Sans';*/
   color:#106DB3;
+  font-weight: bold;
   display: inline-block;
 }
 .date-link{
@@ -131,10 +135,30 @@ ul{
   color: #BAC6CF;
   display: inline-block;
 }
-.link-list{
-  display: flex;
+.link-holder{
+  display: inline-block;
+  background-color: #5E686F;
+  padding-left: 4px;
+}
+.left-links{
+  font-family: 'Open Sans';
+  display: inline;
+  background-color: #A3B3BF;
+  color: white;
+  padding-right: 15px;
+  padding-left: 12px;
+}
+.radical{
+  font-family: 'Open Sans';
+  color:#106DB3;
+  text-transform: uppercase;
+  border-left: 2px solid #BAC6CF;
+  font-size: 30px;
 }
 
+.bulk-text{
+  font-family: 'Open Sans';
+}
 
 
 /* RIGHT SIDE */
